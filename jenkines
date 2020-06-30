@@ -1,0 +1,6 @@
+ /* This builds the actual image */
+
+        app = docker.build("anandr72/nodeapp")
+    }
+
+    stage('Test image') {
